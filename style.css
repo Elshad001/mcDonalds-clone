@@ -1,0 +1,196 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container
+{
+    width:100%;
+    height:auto;
+}
+.container .header
+{
+    display: flex;
+    gap:100px;
+    width:100%;
+    height:120px;
+    padding:0 150px;
+    background-color: #fff;
+}
+.container .header .logo
+{
+    width:15%;
+    height:120px;
+    background-image: url("https://mcdonalds.az/images/static/mcdonalds-logo.jpg");
+    background-repeat: no-repeat;
+}
+.container .header .menu
+{
+    width:70%;
+    height:120px;
+    padding-top:20px;
+}
+.container .header .menu .menu-up
+{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    height:50px;
+}
+.container .header .menu .menu-down
+{
+    width:100%;
+    height:50px;
+    padding-top:10px;
+}
+.container .header .menu ul 
+{
+    display: flex;
+    gap:30px;
+    list-style-type: none;
+}
+.container .header .menu  a
+{
+    font-family: sans-serif;
+    text-decoration: none;
+    color:#555;
+}
+.container .header .menu .menu-up a
+{
+  
+   font-size:14px;
+}
+.container .header .menu .menu-down a
+{
+   font-size:16px;
+   font-weight:500;
+   letter-spacing:0.8px;
+}
+.btn
+{
+    width:auto;
+    height:auto;
+    padding:5px 20px;
+    font-size:16px;
+    border: none;
+    border-radius:5px;
+    background-color: #ffbc0d;
+    color:#333;
+}
+.main
+{
+    width:100%;
+    height:auto;
+    padding-top:50px;
+    box-shadow: 0 -1px 10px #ccc;
+}
+.main  .section-1 
+{
+    position: relative;
+    width:100%;
+    height:500px;
+    padding:0 150px;
+}
+.main .section-1 .slider 
+{
+    width:100%;
+    height:500px;
+    border-radius:5px;
+    background-image: url("https://mcdonalds.az/images/303da6a1161ef2d33a6d9068714e9670.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section1-card
+{
+    position: absolute;
+    top:200px;
+    left:280px;
+    width:350px;
+    height:275px;
+    padding:20px;
+    border-radius:5px;
+    background-color: #fff;
+}
+.section1-card p 
+{
+    font-family: sans-serif;
+    font-size:32px;
+    font-weight: bolder;
+    line-height:38px;
+}
+.section1-card-btn 
+{
+  margin-top:20px;
+  padding:15px 30px;
+  font-size:14px;
+}
+.main  .section-2
+{
+    width:100%;
+    height:350px;
+    margin-top:100px;
+    padding:0 150px;
+}
+.main  .section2-card
+{
+    display: flex;
+    width:100%;
+    height:350px;
+}
+.main  .section2-card .section2-card-img
+{
+    width:65%;
+    height:350px;
+    background-image:url("https://mcdonalds.az/images/392d23f9e55ac4056d2a56184b1d5213.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main  .section2-card .section2-card-content
+{
+    width:35%;
+    height:350px;
+    padding:20px 50px 30px 30px;
+}
+.main  .section2-card .section2-card-content p
+{
+    font-family: sans-serif;
+    font-size:32px;
+    font-weight: bolder;
+    line-height:38px;
+}
+.main  .section2-card .section2-card-content span
+{
+    display: block;
+    font-family: sans-serif;
+    font-size:14px;
+    line-height:38px;
+    margin:15px 0;
+}
+.section2-card-btn
+{
+    padding:15px 70px;
+    margin-top:20px;
+}
+.main  .section-3
+{
+    width:100%;
+    height:350px;
+    margin-top:100px;
+    padding:0 150px;
+}
+.main  .section-4
+{
+    width:100%;
+    height:350px;
+    margin-top:100px;
+    padding:0 150px;
+}
+.main  .section2-card .section3-card-img
+{
+    background-image:url("https://mcdonalds.az/images/36d465453ba9d421a026d608495fb2e3.png");
+}
+.main  .section2-card .section3-card-content
+{
+    padding:20px 50px;
+}
